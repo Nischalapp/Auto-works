@@ -53,7 +53,6 @@ public class W3WGenericfunctions extends Page implements Locator_Interface{
 			WebDriverWait wait = new WebDriverWait(driver,30);
 			WebElement clickableButton = wait.until(
 					ExpectedConditions.elementToBeClickable(By.xpath(locatorName)));
-			//WebElement clickableButton = driver.findElement(By.xpath(locatorName));
 			if(clickableButton.isDisplayed()){
 				Reporter.log("Button "+locatorName+" was clicked",true);
 				clickableButton.click();
