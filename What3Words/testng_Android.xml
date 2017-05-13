@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" allow-return-values="true" verbose="1"
+	parallel="false">
+
+	<test name="Nexus Emulator ,Android 6.0">
+		<parameter name="platformName" value="Android" />
+		<parameter name="platformVersion" value="6.0" />
+		<parameter name="appPackage" value="com.bathandbody.bbw.dev" />
+		<parameter name="deviceName" value="Android6" />
+		<parameter name="deviceOrientation" value="portrait" />
+		<parameter name="TestName" value="BBW Login Validation" />
+		<parameter name="simulator" value="false" />
+		<parameter name="delay" value="2000" />
+		<parameter name="browserName" value="" />
+		<classes> 			
+<!--			<class name="com.bbw.Login.testcases.LoginEmailRules_Android_BM452" /> 
+ 			<class name="com.bbw.Login.testcases.Login_Sucess_Dashboard_Android_BM1082_iOS_BM1081" /> 
+			<class name="com.bbw.Login.testcases.LoginUIVerify_Android_BM375_iOS_BM360" />  
+			<class name="com.bbw.Login.testcases.LoginLockedOut_Android_BM704_iOS_BM1073" />
+			<class name="com.bbw.Login.testcases.LoginMismatched_Android_BM490_iOS_BM1083" />-->
+<!--			<class name="com.bbw.Login.testcases.LoginUnregistered_Android_BM706_iOS_BM1075" />		  
+ 			<class name="com.bbw.ForgotPassword.testcases.ForgotPwd_ReturnToLogin_Android_BM1028_iOS_BM1026" /> 
+ 			<class name="com.bbw.ForgotPassword.testcases.ForgotPwd_SentUI_Android_BM1103_iOS_BM1102" /> 			
+ 			<class name="com.bbw.ForgotPassword.testcases.ForgotPwd_NoInternetUI_Android_BM1094_iOS_BM1093" />
+ 			<class name="com.bbw.ForgotPassword.testcases.ForgotPwd_NoInternet_Android_BM844_iOS_BM843" />
+ 			<class name="com.bbw.ForgotPassword.testcases.ForgotPwd_BackButton_Android_BM1054_iOS_BM1053" />
+ 			<class name="com.bbw.ForgotPassword.testcases.ForgotPwd_Android_BM287_iOS_BM288" />	-->		
+ 		<!--	<class name="com.bbw.DashBoard.testcases.DashboardTopBarUI_Android_BM337_iOS_BM336" />
+ 			<class name="com.bbw.DashBoard.testcases.DashboardRewardsUI_BM1414" />
+ 			<class name="com.bbw.Login.testcases.Login_Sucess_Dashboard_Android_BM1082_iOS_BM1081" /> 
+ 			<class name="com.bbw.DashBoard.testcases.DashboardNotificationBarHome_Android_BM1635_iOS_BM1634" />  
+ 			<class name="com.bbw.DashBoard.testcases.DashboardAirplaneMode_Android_1621" />  
+ 			<class name="com.bbw.DashBoard.testcases.DashboardLogoBarUI_Android_BM1413_iOS_BM1412" /> 
+ 			<class name="com.bbw.DashBoard.testcases.DashboardCellularData_WIFI_PopUp_CTA_Android_1623" />
+ 			<class name="com.bbw.DashBoard.testcases.DashboardPullToRefresh_BM1529" />--> 
+ 			
+ 			
+ 			<class name="com.bbw.DashBoard.testcases.DashboardAirplaneMode_Android_1621" />   			 
+ <!-- 			<class name="com.bbw.DashBoard.testcases.DashboardLogoBarUI_Android_BM1413_iOS_BM1412" />  			
+ 			<class name="com.bbw.DashBoard.testcases.DashboardPullToRefresh_BM1529" />
+ 			<class name="com.bbw.DashBoard.testcases.DashboardRewardsUI_BM1414" />
+ 			<class name="com.bbw.DashBoard.testcases.DashboardTopBarUI_Android_BM337_iOS_BM336" />
+ 			<class name="com.bbw.DashBoard.testcases.DashboardMyCardUI_BM1416" />
+ 			<class name="com.bbw.DashBoard.testcases.DashboardMyCardUI_BM1417" />
+ 			<class name="com.bbw.DashBoard.testcases.DashboardMyCardUI_BM1420" /> 			
+ 			<class name="com.bbw.DashBoard.testcases.DashboardMyRewardsNotification_BM1042" /> 
+ 			<class name="com.bbw.DashBoard.testcases.DashboardRewardTrackerUIBM1447" />
+ 			<class name="com.bbw.DashBoard.testcases.DashboardRewardTrackerUINextRewardBM1449" />
+ 			<class name="com.bbw.DashBoard.testcases.DashboardRewardTrackerUITitleBar_BM1625" />
+ 			<class name="com.bbw.DashBoard.testcases.DashboardAirplaneMode_Android_1621" /> -->
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,9 @@
+com/w3w/generic/functions/ExcelDataProvider.class
+com/w3w/repository/Page.class
+com/w3w/Login/testcases/Login_to_W3W.class
+com/w3w/repository/BBWCommonPage.class
+com/w3w/generic/functions/AppLauncher.class
+com/w3w/repository/Locator_Interface.class
+com/w3w/generic/functions/W3WGenericfunctions.class
+com/w3w/generic/functions/LoginGenericfunctions.class
+com/w3w/generic/functions/TakeScreenshot.class
